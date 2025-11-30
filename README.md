@@ -1,16 +1,87 @@
-# book_explorer
+# 📚 Book Explorer App  
+A clean-architecture Flutter application that allows users to search, explore, and view details of books using the **Open Library API**.
 
-A new Flutter project.
+<p align="center">
+  <img src="assets/app_banner.png" width="600" />
+</p>
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎥 Demo Video  
+👉 demo video
 
-A few resources to get you started if this is your first Flutter project:
+### **YouTube Embed**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⭐ Features
+
+- 🔍 **Powerful book search** (title, author, keywords)
+- 📖 **View detailed information** of each book  
+- 🗂 **Browse books by subject / category**
+- 🖼 **High-quality cover images (Open Library Cover API)**
+- 🎛 **Client-side filters** (Author, Year)
+- 🧱 **Clean Architecture**
+  - Interface → Repository → Provider → UI
+
+---
+
+## 🏗 Clean Architecture Overview
+lib/
+│
+├── core/
+│ ├── api/
+│ └── widgets/
+│
+├── data/
+│ ├── interfaces/
+│ ├── models/
+│ └── repository/
+│
+├── presentation/
+│ ├── provider/
+│ └── screens/
+│
+└── main.dart
+
+
+---
+
+## 🔧 Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| UI | Flutter, Material 3 |
+| State Management | Provider |
+| Networking | Dio |
+| API | Open Library API |
+| Architecture | Clean, modular |
+
+---
+
+## 📡 APIs Used
+
+### 🔹 Search API  
+https://openlibrary.org/search.json?q={query}&page={page}
+
+### 🔹 Subject Books API  
+https://openlibrary.org/subjects/{subject}.json
+
+### 🔹 Work Details API  
+https://openlibrary.org/works/OL123W.json
+
+### 🔹 Cover Images  
+https://covers.openlibrary.org/b/id/{coverId}-L.jpg
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/sntanju/Book_Explorer.git
+cd Book_Explorer
+
+
+
+
