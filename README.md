@@ -32,6 +32,7 @@ A clean-architecture Flutter application that allows users to search, explore, a
 ---
 
 ## 🏗 Clean Architecture Overview
+
 lib/
 │
 ├── core/
@@ -48,8 +49,6 @@ lib/
 │   └── screens/             # UI Screens
 │
 └── main.dart
-
-
 
 ---
 
@@ -86,15 +85,15 @@ https://covers.openlibrary.org/b/id/{coverId}-L.jpg
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/sntanju/Book_Explorer.git
-cd Book_Explorer
+cd Book_Explorer ```
 
-### 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 ```sh
-flutter pub get
+flutter pub get ```
 
 ### 3️⃣ Run the App
 ```sh
-flutter run
+flutter run ```
 
 
 
