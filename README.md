@@ -8,9 +8,14 @@ A clean-architecture Flutter application that allows users to search, explore, a
 ---
 
 ## 🎥 Demo Video  
-👉 demo video
+👉 Coming soon…
 
-### **YouTube Embed**
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID">
+    <img src="https://img.youtube.com/vi/VIDEO_ID/0.jpg" width="500" />
+  </a>
+</p>
+
 
 ---
 
@@ -27,22 +32,22 @@ A clean-architecture Flutter application that allows users to search, explore, a
 ---
 
 ## 🏗 Clean Architecture Overview
-lib/
-│
-├── core/
-│ ├── api/
-│ └── widgets/
-│
-├── data/
-│ ├── interfaces/
-│ ├── models/
-│ └── repository/
-│
-├── presentation/
-│ ├── provider/
-│ └── screens/
-│
-└── main.dart
+- lib/
+- │
+- ├── core/
+- │ ├── api/
+- │ └── widgets/
+- │
+- ├── data/
+- │ ├── interfaces/
+- │ ├── models/
+- │ └── repository/
+- │
+- ├── presentation/
+- │ ├── provider/
+- │ └── screens/
+- │
+- └── main.dart
 
 
 ---
