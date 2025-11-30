@@ -32,22 +32,23 @@ A clean-architecture Flutter application that allows users to search, explore, a
 ---
 
 ## 🏗 Clean Architecture Overview
-- lib/
-- │
-- ├── core/
-- │ ├── api/
-- │ └── widgets/
-- │
-- ├── data/
-- │ ├── interfaces/
-- │ ├── models/
-- │ └── repository/
-- │
-- ├── presentation/
-- │ ├── provider/
-- │ └── screens/
-- │
-- └── main.dart
+lib/
+│
+├── core/
+│   ├── api/                 # Network interceptor, Dio config
+│   └── widgets/             # Shared widgets (image loader, etc.)
+│
+├── data/
+│   ├── interfaces/          # Abstract repository interfaces
+│   ├── models/              # Data models
+│   └── repository/          # Repository implementations
+│
+├── presentation/
+│   ├── provider/            # State management (Provider)
+│   └── screens/             # UI Screens
+│
+└── main.dart
+
 
 
 ---
