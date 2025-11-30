@@ -86,16 +86,17 @@ https://covers.openlibrary.org/b/id/{coverId}-L.jpg
 ```sh
 git clone https://github.com/sntanju/Book_Explorer.git
 cd Book_Explorer
-
+```
 
 ## 2️⃣ Install Dependencies
 ```sh
 flutter pub get
+```
 
 ### 3️⃣ Run the App
 ```sh
 flutter run
-
+```
 
 
 
