@@ -5,6 +5,11 @@ A clean-architecture Flutter application that allows users to search, explore, a
   <img src="assets/app_banner.png" width="600" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/sntanju/Book_Explorer/blob/78d48ce3042fcac2f6ecc618397a49ba99c95121/assets/images/bookImage.jpg" width="600" />
+</p>
+
+
 ---
 
 ## 🎥 Demo Video  
